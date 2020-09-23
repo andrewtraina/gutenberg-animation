@@ -1,106 +1,456 @@
 .hidden-animated {
-   visibility: hidden;
+  visibility: hidden;
 }
 
 .animated.delay-100ms {
-   -webkit-animation-delay: 100ms;
-   animation-delay: 100ms;
+  -webkit-animation-delay: 100ms;
+  animation-delay: 100ms;
 }
 
 .animated.delay-200ms {
-   -webkit-animation-delay: 200ms;
-   animation-delay: 200ms;
+  -webkit-animation-delay: 200ms;
+  animation-delay: 200ms;
 }
 
 .animated.delay-500ms {
-   -webkit-animation-delay: 500ms;
-   animation-delay: 500ms;
+  -webkit-animation-delay: 500ms;
+  animation-delay: 500ms;
 }
 
-.themeisle-animations-control__popover:not( .is-mobile ).is-bottom {
-   z-index: 9999999;
+.animated.delay-100ms {
+  -webkit-animation-delay: 100ms;
+  animation-delay: 100ms;
+}
+
+.animated.delay-200ms {
+  -webkit-animation-delay: 200ms;
+  animation-delay: 200ms;
+}
+
+.animated.delay-300ms {
+  -webkit-animation-delay: 300ms;
+  animation-delay: 300ms;
+}
+
+.animated.delay-400ms {
+  -webkit-animation-delay: 400ms;
+  animation-delay: 400ms;
+}
+
+.animated.delay-500ms {
+  -webkit-animation-delay: 500ms;
+  animation-delay: 500ms;
+}
+
+.animated.delay-600ms {
+  -webkit-animation-delay: 600ms;
+  animation-delay: 600ms;
+}
+
+.animated.delay-700ms {
+  -webkit-animation-delay: 700ms;
+  animation-delay: 700ms;
+}
+
+.animated.delay-800ms {
+  -webkit-animation-delay: 800ms;
+  animation-delay: 800ms;
+}
+
+.animated.delay-900ms {
+  -webkit-animation-delay: 900ms;
+  animation-delay: 900ms;
+}
+
+.animated.delay-1000ms {
+  -webkit-animation-delay: 1000ms;
+  animation-delay: 1000ms;
+}
+
+.animated.delay-1100ms {
+  -webkit-animation-delay: 1100ms;
+  animation-delay: 1100ms;
+}
+
+.animated.delay-1200ms {
+  -webkit-animation-delay: 1200ms;
+  animation-delay: 1200ms;
+}
+
+.animated.delay-1300ms {
+  -webkit-animation-delay: 1300ms;
+  animation-delay: 1300ms;
+}
+
+.animated.delay-1400ms {
+  -webkit-animation-delay: 1400ms;
+  animation-delay: 1400ms;
+}
+
+.animated.delay-1500ms {
+  -webkit-animation-delay: 1500ms;
+  animation-delay: 1500ms;
+}
+
+.animated.delay-1600ms {
+  -webkit-animation-delay: 1600ms;
+  animation-delay: 1600ms;
+}
+
+.animated.delay-1700ms {
+  -webkit-animation-delay: 1700ms;
+  animation-delay: 1700ms;
+}
+
+.animated.delay-1800ms {
+  -webkit-animation-delay: 1800ms;
+  animation-delay: 1800ms;
+}
+
+.animated.delay-1900ms {
+  -webkit-animation-delay: 1900ms;
+  animation-delay: 1900ms;
+}
+
+.animated.delay-2000ms {
+  -webkit-animation-delay: 2000ms;
+  animation-delay: 2000ms;
+}
+
+.animated.delay-2100ms {
+  -webkit-animation-delay: 2100ms;
+  animation-delay: 2100ms;
+}
+
+.animated.delay-2200ms {
+  -webkit-animation-delay: 2200ms;
+  animation-delay: 2200ms;
+}
+
+.animated.delay-2300ms {
+  -webkit-animation-delay: 2300ms;
+  animation-delay: 2300ms;
+}
+
+.animated.delay-2400ms {
+  -webkit-animation-delay: 2400ms;
+  animation-delay: 2400ms;
+}
+
+.animated.delay-2500ms {
+  -webkit-animation-delay: 2500ms;
+  animation-delay: 2500ms;
+}
+
+.animated.delay-2600ms {
+  -webkit-animation-delay: 2600ms;
+  animation-delay: 2600ms;
+}
+
+.animated.delay-2700ms {
+  -webkit-animation-delay: 2700ms;
+  animation-delay: 2700ms;
+}
+
+.animated.delay-2800ms {
+  -webkit-animation-delay: 2800ms;
+  animation-delay: 2800ms;
+}
+
+.animated.delay-2900ms {
+  -webkit-animation-delay: 2900ms;
+  animation-delay: 2900ms;
+}
+
+.animated.delay-3000ms {
+  -webkit-animation-delay: 3000ms;
+  animation-delay: 3000ms;
+}
+
+.animated.delay-3100ms {
+  -webkit-animation-delay: 3100ms;
+  animation-delay: 3100ms;
+}
+
+.animated.delay-3200ms {
+  -webkit-animation-delay: 3200ms;
+  animation-delay: 3200ms;
+}
+
+.animated.delay-3300ms {
+  -webkit-animation-delay: 3300ms;
+  animation-delay: 3300ms;
+}
+
+.animated.delay-3400ms {
+  -webkit-animation-delay: 3400ms;
+  animation-delay: 3400ms;
+}
+
+.animated.delay-3500ms {
+  -webkit-animation-delay: 3500ms;
+  animation-delay: 3500ms;
+}
+
+.animated.delay-3600ms {
+  -webkit-animation-delay: 3600ms;
+  animation-delay: 3600ms;
+}
+
+.animated.delay-3700ms {
+  -webkit-animation-delay: 3700ms;
+  animation-delay: 3700ms;
+}
+
+.animated.delay-3800ms {
+  -webkit-animation-delay: 3800ms;
+  animation-delay: 3800ms;
+}
+
+.animated.delay-3900ms {
+  -webkit-animation-delay: 3900ms;
+  animation-delay: 3900ms;
+}
+
+.animated.delay-4000ms {
+  -webkit-animation-delay: 4000ms;
+  animation-delay: 4000ms;
+}
+
+.animated.delay-4100ms {
+  -webkit-animation-delay: 4100ms;
+  animation-delay: 4100ms;
+}
+
+.animated.delay-4200ms {
+  -webkit-animation-delay: 4200ms;
+  animation-delay: 4200ms;
+}
+
+.animated.delay-4300ms {
+  -webkit-animation-delay: 4300ms;
+  animation-delay: 4300ms;
+}
+
+.animated.delay-4400ms {
+  -webkit-animation-delay: 4400ms;
+  animation-delay: 4400ms;
+}
+
+.animated.delay-4500ms {
+  -webkit-animation-delay: 4500ms;
+  animation-delay: 4500ms;
+}
+
+.animated.delay-4600ms {
+  -webkit-animation-delay: 4600ms;
+  animation-delay: 4600ms;
+}
+
+.animated.delay-4700ms {
+  -webkit-animation-delay: 4700ms;
+  animation-delay: 4700ms;
+}
+
+.animated.delay-4800ms {
+  -webkit-animation-delay: 4800ms;
+  animation-delay: 4800ms;
+}
+
+.animated.delay-4900ms {
+  -webkit-animation-delay: 4900ms;
+  animation-delay: 4900ms;
+}
+
+.animated.delay-5000ms {
+  -webkit-animation-delay: 5000ms;
+  animation-delay: 5000ms;
+}
+
+.animated.duration-250ms {
+  -webkit-animation-duration: 250ms;
+  animation-duration: 250ms;
+}
+
+.animated.duration-500ms {
+  -webkit-animation-duration: 500ms;
+  animation-duration: 500ms;
+}
+
+.animated.duration-750ms {
+  -webkit-animation-duration: 750ms;
+  animation-duration: 750ms;
+}
+
+.animated.duration-1000ms {
+  -webkit-animation-duration: 1000ms;
+  animation-duration: 1000ms;
+}
+
+.animated.duration-1250ms {
+  -webkit-animation-duration: 1250ms;
+  animation-duration: 1250ms;
+}
+
+.animated.duration-1500ms {
+  -webkit-animation-duration: 1500ms;
+  animation-duration: 1500ms;
+}
+
+.animated.duration-1750ms {
+  -webkit-animation-duration: 1750ms;
+  animation-duration: 1750ms;
+}
+
+.animated.duration-2000ms {
+  -webkit-animation-duration: 2000ms;
+  animation-duration: 2000ms;
+}
+
+.animated.duration-2250ms {
+  -webkit-animation-duration: 2250ms;
+  animation-duration: 2250ms;
+}
+
+.animated.duration-2500ms {
+  -webkit-animation-duration: 2500ms;
+  animation-duration: 2500ms;
+}
+
+.animated.duration-2750ms {
+  -webkit-animation-duration: 2750ms;
+  animation-duration: 2750ms;
+}
+
+.animated.duration-3000ms {
+  -webkit-animation-duration: 3000ms;
+  animation-duration: 3000ms;
+}
+
+.animated.duration-3250ms {
+  -webkit-animation-duration: 3250ms;
+  animation-duration: 3250ms;
+}
+
+.animated.duration-3500ms {
+  -webkit-animation-duration: 3500ms;
+  animation-duration: 3500ms;
+}
+
+.animated.duration-3750ms {
+  -webkit-animation-duration: 3750ms;
+  animation-duration: 3750ms;
+}
+
+.animated.duration-4000ms {
+  -webkit-animation-duration: 4000ms;
+  animation-duration: 4000ms;
+}
+
+.animated.duration-4250ms {
+  -webkit-animation-duration: 4250ms;
+  animation-duration: 4250ms;
+}
+
+.animated.duration-4500ms {
+  -webkit-animation-duration: 4500ms;
+  animation-duration: 4500ms;
+}
+
+.animated.duration-4750ms {
+  -webkit-animation-duration: 4750ms;
+  animation-duration: 4750ms;
+}
+
+.animated.duration-5000ms {
+  -webkit-animation-duration: 5000ms;
+  animation-duration: 5000ms;
+}
+
+.themeisle-animations-control__popover:not(.is-mobile).is-bottom {
+  z-index: 9999999;
 }
 
 .themeisle-animations-control__popover .components-popover__content {
-   overflow-y: hidden;
+  overflow-y: hidden;
 }
 
 .themeisle-animations-control__popover .components-popover__content .components-menu-group {
-   padding: 7px;
+  padding: 7px;
 }
 
 .themeisle-animations-control__popover .components-popover__content .components-popover__items {
-   max-height: 300px;
-   overflow-y: auto;
+  max-height: 300px;
+  overflow-y: auto;
 }
 
 .themeisle-animations-control__popover .components-popover__content .components-popover__items button.is-selected {
-   background: #f8f9f9;
+  background: #f8f9f9;
 }
 
 .themeisle-animations-control__popover .components-popover__content .components-popover__items .themeisle-animations-control__category {
-   font-weight: bold;
+  font-weight: bold;
 }
 
 .themeisle-animations-control__popover .components-popover__content .components-popover__items button i {
-   margin-right: 5px;
+  margin-right: 5px;
 }
 
 .themeisle-animations-control .components-dropdown {
-   display: flex;
+  display: flex;
 }
 
 .themeisle-animations-control .themeisle-animations-control__button {
-   background: transparent;
-   position: relative;
-   width: 100%;
-   height: auto;
-   line-height: 28px;
-   padding: 0 12px 2px;
-   box-shadow: 0 0 0 transparent;
-   transition: box-shadow 0.1s linear;
-   border-radius: 4px;
-   border: 1px solid #8d96a0;
+  background: transparent;
+  position: relative;
+  width: 100%;
+  height: auto;
+  line-height: 28px;
+  padding: 0 12px 2px;
+  box-shadow: 0 0 0 transparent;
+  transition: box-shadow 0.1s linear;
+  border-radius: 4px;
+  border: 1px solid #8d96a0;
 }
 
 .themeisle-animations-control .themeisle-animations-control__button.is-button {
-   background: transparent;
+  background: transparent;
 }
 
 .themeisle-animations-control .themeisle-animations-control__button:hover {
-   background: #fafafa;
-   border-color: #999;
-   box-shadow: inset 0 -1px 0 #999;
-   color: #23282d;
-   text-decoration: none;
+  background: #fafafa;
+  border-color: #999;
+  box-shadow: inset 0 -1px 0 #999;
+  color: #23282d;
+  text-decoration: none;
 }
 
 .themeisle-animations-control .themeisle-animations-control__button:focus {
-   border: 1px solid black;
+  border: 1px solid black;
 }
 
 .themeisle-animations-control .themeisle-animations-control__button:after {
-   content: "";
-   pointer-events: none;
-   display: block;
-   width: 0;
-   height: 0;
-   border-left: 3px solid transparent;
-   border-right: 3px solid transparent;
-   border-top: 5px solid currentColor;
-   margin-left: 4px;
-   margin-right: 2px;
-   right: 8px;
-   top: 12px;
-   position: absolute;
+  content: "";
+  pointer-events: none;
+  display: block;
+  width: 0;
+  height: 0;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  border-top: 5px solid currentColor;
+  margin-left: 4px;
+  margin-right: 2px;
+  right: 8px;
+  top: 12px;
+  position: absolute;
 }
 
-@media ( max-width: 782px ) {
-   .themeisle-animations-control .themeisle-animations-control__button {
-      padding: 5px 24px 5px 8px;
-   }
+@media (max-width: 782px) {
+  .themeisle-animations-control .themeisle-animations-control__button {
+    padding: 5px 24px 5px 8px;
+  }
 
-   .themeisle-animations-control .themeisle-animations-control__button:after {
-      top: 16px;
-   }
+  .themeisle-animations-control .themeisle-animations-control__button:after {
+    top: 16px;
+  }
 }

@@ -18,34 +18,27 @@ const { addFilter } = wp.hooks;
 /**
  * Internal dependencies.
  */
-import AnimationControls from './editor.js';
+import AnimationControls from "./editor.js";
+import "./scss/animation-classes.scss";
 
-const withInspectorControls = createHigherOrderComponent( ( BlockEdit ) => {
-	return ( props ) => {
-		const hasCustomClassName = hasBlockSupport( props.name, 'customClassName', true );
-		if ( hasCustomClassName && props.isSelected ) {
-			return (
-				<Fragment>
-					<BlockEdit {...props} />
-					<InspectorControls>
-						<PanelBody
-							title={__( 'Animations' )}
-							initialOpen={false}
-						>
-							<AnimationControls
-								clientId={props.clientId}
-								setAttributes={props.setAttributes}
-								attributes={props.attributes}
+const withInspectorControls = createHigherOrderComponent((BlockEdit) => {
+  return (props) => {
+    const hasCustomClassName = hasBlockSupport(props.name, "customClassName", true);
+    if (hasCustomClassName && props.isSelected) {
+      return (
+        <Fragment>
+          <BlockEdit {...props} />
+          <InspectorControls>
+            <PanelBody title={__("Animations")} initialOpen={false}>
+              <AnimationControls clientId={props.clientId} setAttributes={props.setAttributes} attributes={props.attributes} />
+            </PanelBody>
+          </InspectorControls>
+        </Fragment>
+      );
+    }
 
-							/>
-						</PanelBody>
-					</InspectorControls>
-				</Fragment>
-			);
-		}
+    return <BlockEdit {...props} />;
+  };
+}, "withInspectorControl");
 
-		return <BlockEdit {...props} />;
-	};
-}, 'withInspectorControl' );
-
-addFilter( 'editor.BlockEdit', 'themeisle-custom-css/with-inspector-controls', withInspectorControls );
+addFilter("editor.BlockEdit", "themeisle-custom-css/with-inspector-controls", withInspectorControls);

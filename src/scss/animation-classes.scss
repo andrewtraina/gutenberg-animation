@@ -1,0 +1,17 @@
+@for $i from 1 through 50 {
+  $delay: $i * 100;
+
+  .animated.delay-#{$delay}ms {
+    -webkit-animation-delay: #{$delay}ms;
+    animation-delay: #{$delay}ms;
+  }
+}
+
+@for $i from 1 through 20 {
+  $duration: $i * 250;
+
+  .animated.duration-#{$duration}ms {
+    -webkit-animation-duration: #{$duration}ms;
+    animation-duration: #{$duration}ms;
+  }
+}
